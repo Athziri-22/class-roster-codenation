@@ -1,10 +1,17 @@
 import "./styles.css";
+function createRosterItem(studentName, sutdentPronouns, studentHS) {
+  rosterItem =
+    "<li>studentName + '          ' + studentPronouns + '        ' + studentHS</li>";
+  return rosterItem;
+}
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <h1>Code Nation Roster</h1>
+      <ol>
+        <li>Mikkail Alan He/His Williamsburg Charter High School</li>
+      </ol>
     </div>
   );
 }
